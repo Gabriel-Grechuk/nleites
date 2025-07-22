@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "nLeites",
+  "version": "1.0",
+  "description": "Every single image is now milk",
+  "permissions": ["tabs"],
+  "content_scripts": [
+    {
+      "js": ["src/nleites.js"],
+      "matches": ["https://*/*", "http://*/*"]
+    }
+  ]
+}
